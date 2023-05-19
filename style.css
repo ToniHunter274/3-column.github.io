@@ -1,0 +1,62 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	display: flex;
+	width: 900px;
+	height: 600px;
+	margin: 140px auto;
+	color: #fff;
+	font-family: 'Poppins',sans-serif;
+}
+
+section{
+	width: 300px;
+	height: 600px;
+	padding: 35px;
+	text-align: center;
+}
+
+h1{
+	margin:20px; 
+}
+
+p{
+	line-height: 25px;
+	font-size: 20px;
+}
+
+button{
+	margin-top: 100px;
+	margin-left: 40px;
+	width: 150px;
+	height: 50px;
+	border-radius: 30px;
+	border: none;
+	background:#fff;
+	font-size: 18px;
+	font-family:'Poppins' sans-serif;
+}
+
+#sedan{
+	background-color:#FFB100; 
+}
+
+#suv{
+	background-color: #0492C2;
+}
+
+#luxury{
+	background-color: #01796F;
+}
+
+@media(max-width: 800px){
+	main{
+		display: grid;
+		grid-template-columns: auto;
+		margin-left: 500px;
+	}
+}
